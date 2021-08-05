@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+    <style>
+        table,th,td{
+            border: 1px solid chocolate;
+            border-collapse: collapse;
+        }
+        table{
+            width: 60%;
+            margin-left: 20%;
+            margin-right: 20%;
+        }
+        td{
+            color: darkorchid;
+            padding-left: 10px;
+        }
+        th{
+            color: firebrick;
+            padding-left: 10px;
+        }
+        .a{
+            background-color: chartreuse;
+            color: #9e51ff;
+            width: 100px;
+            height: 40px;
+            border-radius: 40px;
+            border-collapse: collapse;
+        }
+        button:hover{
+            background-color: blue;
+            color: red;
+        }
+        .b{
+            background-color: cornflowerblue;
+            color: #9e51ff;
+            width: 100px;
+            height: 40px;
+            border-radius: 40px;
+            border-collapse: collapse;
+        }
+        button:hover {
+            background-color: rebeccapurple;
+            color: peachpuff;
+        }
+        .c{
+            background-color: chocolate;
+            color: #9e51ff;
+            width: 100px;
+            height: 40px;
+            border-radius: 40px;
+            border-collapse: collapse;
+        }
+        button:hover {
+            background-color: lightcyan;
+            color: lightcoral;
+        }
+        .d{
+            background-color: cyan;
+            color: #9e51ff;
+            width: 100px;
+            height: 40px;
+            border-radius: 40px;
+            border-collapse: collapse;
+        }
+        button:hover {
+            background-color: beige;
+            color: fuchsia;
+        }
+        .e{
+            background-color: crimson;
+            color: #9e51ff;
+            width: 100px;
+            height: 40px;
+            border-radius: 40px;
+            border-collapse: collapse;
+        }
+        button:hover {
+            background-color: #9e51ff;
+            color: crimson;
+        }
+        .mytable{
+
+        }
+        h1{
+            color: darkgreen;
+        }
+        h3{
+            color: red;
+        }
+body{
+    background-color: lightseagreen;
+}
+form{
+    width: 40px;
+    margin: auto;
+}
+.ttl1{
+    color: #080aff;
+}
+.myinput1{
+    width: 700%;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+}
+.myinputreg{
+    width: 400px;
+    height: 30px;
+    margin-right: 10%;
+    margin-left: 10%;
+    background-color: crimson;
+    border-radius: 10px;
+    border: none;
+}
+    </style>
+</head>
+<body>
+    <h1>Register Page</h1>
+    <a href="index.html"><button class="a">Home</button></a>
+    <a href="about.html"><button class="b">About</button></a>
+    <a href="gallery.html"><button class="c">Gallery</button></a>
+    <a href="register.html"><button class="d">Register</button></a>
+    <a href="login.html"><button class="e">login</button></a>
+    <hr>
+
+<h3 class="ttl1">Our Packages</h3>
+<table class="mytable">
+    <tr>
+        <th>Service Name</th>
+        <th>Branch Offering</th>
+        <th>Cost Per Service</th>
+    </tr>
+    <tr>
+        <td>Kenyan Branch</td>
+        <td>Cyber Security</td>
+        <td>Ksh 30000</td>
+    </tr>
+    <tr>
+        <td>Ugandan Branch</td>
+        <td>Website Design</td>
+        <td>Ksh 25000</td>
+    </tr>
+    <tr>
+        <td>Tanzanian Branch</td>
+        <td>Mobile App Development</td>
+        <td>Ksh 35000</td>
+    </tr>
+    <tr>
+        <td>Rwandan Branch</td>
+        <td>Software Maintenance</td>
+        <td>Ksh 40000</td>
+    </tr>
+    <tr>
+        <td>Burundi Branch</td>
+        <td>Database Management</td>
+        <td>Ksh 50000</td>
+    </tr>
+
+</table>
+<h1>Fill in the form to register</h1>
+    <form class="myform" action="">
+        <label for="">Name</label><br>
+        <input class="myinput1" placeholder="Enter name" type="text"><br><br>
+        <label for="">email</label><br>
+        <input class="myinput1" placeholder="Enter email" type="email"><br><br>
+        <label for="">phone</label><br>
+        <input class="myinput1" placeholder="Enter phone" type="text"><br><br>
+        <label for="">ID number</label><br>
+        <input class="myinput1" placeholder="Enter ID number" type="number"><br><br>
+        <label for="">date</label><br>
+        <input class="myinput1" type="date"><br><br>
+        <label for="">gender</label><br>
+        <input type="radio" name="gender">Male
+        <input type="radio" name="gender">female
+        <input type="radio" name="gender">Other
+        <br><br>
+        <label for="">password</label><br>
+        <input class="myinput1" placeholder="Enter password" type="password"><br><br>
+        <input class="myinputreg" type="submit" value="Register">
+    </form>
+
+</body>
+</html>
